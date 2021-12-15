@@ -1,0 +1,24 @@
+{
+  "name": "mongtoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -p . && node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "_moduleAliases": {
+    "@": "src",
+    "@types": "src/types"
+  }
+}
