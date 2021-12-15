@@ -3,7 +3,7 @@
 Call `setup()` and pass in the database name, as well as the MongoClient.
 > Refer to 'src/server.ts' for the example.
 
-```typescript
+```ts
   const dbClient = new MongoClient("<ADD URL HERE>", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -28,7 +28,7 @@ function, passing the collection name as the parameter.
 
 Now you're able to use the model in your code.
 
-```{typescript}
+``ts
   const user = await User.findOne({ name: "John" });
   console.log(user);
 
