@@ -3,7 +3,7 @@
 Call `setup()` and pass in the database name, as well as the MongoClient.
 > Refer to 'src/server.ts' for the example.
 
-```{typescript}
+```{ts}
   const dbClient = new MongoClient("<ADD URL HERE>", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -16,7 +16,7 @@ Then, to create a Model, simply create the interface and call the `model<T>()`
 function, passing the collection name as the parameter.
 > Refer to 'src/models/User.ts' for the example.
 
-```{typescript}
+```{ts}
   interface IUser {
     name: string;
     age: number;
