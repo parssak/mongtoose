@@ -28,7 +28,7 @@ function, passing the collection name as the parameter.
 
 Now you're able to use the model in your code.
 
-``ts
+```ts
   const user = await User.findOne({ name: "John" });
   console.log(user);
 
